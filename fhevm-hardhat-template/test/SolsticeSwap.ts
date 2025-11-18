@@ -11,6 +11,7 @@ type Signers = {
 };
 
 // Mock token addresses for testing
+// These addresses are used for testing order creation and matching
 const MOCK_TOKEN_A = "0x1111111111111111111111111111111111111111";
 const MOCK_TOKEN_B = "0x2222222222222222222222222222222222222222";
 
