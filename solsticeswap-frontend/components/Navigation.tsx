@@ -16,7 +16,7 @@ export function Navigation() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-border bg-white/95 backdrop-blur-md shadow-sm" suppressHydrationWarning>
+    <nav className="sticky top-0 z-50 w-full border-b border-border bg-white/95 dark:bg-gray-950/95 backdrop-blur-md shadow-sm" suppressHydrationWarning>
       <div className="container mx-auto px-4 md:px-8 h-16 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="relative">

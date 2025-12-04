@@ -128,7 +128,7 @@ export function OrderForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6" aria-label="Create encrypted order">
       <div>
         <label className="block text-sm font-semibold mb-3 text-foreground">Order Type</label>
         <div className="flex gap-3">
