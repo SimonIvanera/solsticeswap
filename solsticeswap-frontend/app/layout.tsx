@@ -5,7 +5,7 @@ import { Navigation } from "@/components/Navigation";
 
 export const metadata: Metadata = {
   title: "SolsticeSwap - Privacy-Preserving Token Swap",
-  description: "Fully encrypted order matching system that prevents front-running",
+  description: "Fully encrypted order matching system that prevents front-running and MEV attacks",
 };
 
 export default async function RootLayout({

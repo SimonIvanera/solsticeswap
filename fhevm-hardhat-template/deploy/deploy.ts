@@ -10,7 +10,8 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     log: true,
   });
 
-  console.log(`SolsticeSwap contract: `, deployedSolsticeSwap.address);
+  console.log(`SolsticeSwap contract deployed at: ${deployedSolsticeSwap.address}`);
+  console.log(`Network: ${hre.network.name}`);
 };
 export default func;
 func.id = "deploy_solsticeSwap"; // id required to prevent reexecution
