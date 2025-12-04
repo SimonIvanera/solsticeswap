@@ -62,6 +62,7 @@ contract SolsticeSwap is ZamaEthereumConfig {
     uint256 public nextMatchId;
 
     // Order book: mapping from order ID to order
+    // Pending orders are stored in arrays for efficient iteration
     uint256[] public pendingBuyOrders;
     uint256[] public pendingSellOrders;
 
